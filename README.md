@@ -172,7 +172,7 @@ Reveal.initialize({
 	parallaxBackgroundSize: '' // CSS syntax, e.g. "2100px 900px"
 
 
-});
+}); 
 ```
 
 Note that the new default vertical centering option will break compatibility with slides that were using transitions with backgrounds (`cube` and `page`). To restore the previous behavior, set `center` to `false`.
